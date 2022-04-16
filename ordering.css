@@ -75,7 +75,7 @@ body {
 .ordering__order-confirmation {
     display: grid;
     grid-template-columns: repeat(2, 13em);
-    grid-template-rows: repeat(5, 2em);
+    grid-template-rows: repeat(4, 2em);
     font-weight: 100;
 }
 
@@ -98,6 +98,7 @@ body {
 /* Чекбокс согласия обработки данных */
 
 .ordering__order-agreement {
+    margin-top: 1em;
     width: 20em;
     font-size: 0.9em;
 }
@@ -107,10 +108,10 @@ body {
 .ordering__button {
     width: 9em;
     padding: 0.7em 0.9em 0.7em 0.9em;
-    margin: 1.5em 0 5em 0;
-    letter-spacing: 0.02em;
+    margin-bottom: 5em;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
+    letter-spacing: 0.02em;
     border: 0.08em solid #000;
     border-radius: 0.3em;
     cursor: pointer;
