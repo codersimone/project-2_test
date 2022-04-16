@@ -98,7 +98,7 @@ body {
 /* Чекбокс согласия обработки данных */
 
 .ordering__order-agreement {
-    margin-top: 1em;
+    margin-top: 3em;
     width: 20em;
     font-size: 0.9em;
 }
@@ -108,7 +108,7 @@ body {
 .ordering__button {
     width: 9em;
     padding: 0.7em 0.9em 0.7em 0.9em;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 0.02em;
