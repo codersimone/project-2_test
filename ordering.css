@@ -7,6 +7,8 @@ body {
     background-color: #fff;
 }
 
+/* Main контейнер */
+
 .ordering {
     max-width: 80vw;
     max-height: 100%;
@@ -23,7 +25,7 @@ body {
     padding: 3em 0 1.5em 0;
 }
 
-/* Формы данных покупателя */
+/* Формы данных покупателя в одном теге form */
 
 .ordering__details-personal {
     margin-bottom: 2em;
@@ -63,7 +65,7 @@ body {
     line-height: 1.5em;
 }
 
-/* Форма заказа */
+/* Проверка формы заказа, дублирующаяся из корзины */
 
 .ordering__order-title {
     margin: 3em 0 1em 0;
@@ -99,7 +101,7 @@ body {
 
 .ordering__order-agreement {
     margin-top: 3em;
-    width: 20em;
+    width: 22em;
     font-size: 0.9em;
 }
 
